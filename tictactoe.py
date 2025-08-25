@@ -63,7 +63,8 @@ def play_tic_tac_toe():
             print("Please enter a valid number between 1 and 9.")
 
     print_board(board)
-    print("🤝 It's a Draw! Cost: 0")
+    print("It's a Draw! Cost: 0")
 
 
 play_tic_tac_toe()
+
