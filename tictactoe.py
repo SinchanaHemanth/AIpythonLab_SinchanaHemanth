@@ -52,9 +52,9 @@ def play_tic_tac_toe():
             if winner:
                 print_board(board)
                 if winner == "X":
-                    print("🎉 Player 1 (X) wins! Cost: +1 | Player 2 (O): -1")
+                    print("Player 1 (X) wins! Cost: +1 | Player 2 (O): -1")
                 else:
-                    print("🎉 Player 2 (O) wins! Cost: +1 | Player 1 (X): -1")
+                    print("Player 2 (O) wins! Cost: +1 | Player 1 (X): -1")
                 return
 
             current_player = "O" if current_player == "X" else "X"
@@ -67,4 +67,5 @@ def play_tic_tac_toe():
 
 
 play_tic_tac_toe()
+
 
